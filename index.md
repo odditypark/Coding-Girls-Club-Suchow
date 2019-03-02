@@ -8,10 +8,3 @@ title: Odditypark
 <p>{{ category.slug }}</p>
 {% endfor %}
 
-
-
-<!-- 
-> All is above you all is sky.
-> All is behind you all is sea. 
--->
-
