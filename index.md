@@ -1,6 +1,17 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
+layout: default
+title: Odditypark
 ---
+
+{% for category in site.categories %} 
+<h2><a href="{{ category.url }}">{{ category.title }}</a></h2>
+<p>{{ category.slug }}</p>
+{% endfor %}
+
+
+
+<!-- 
+> All is above you all is sky.
+> All is behind you all is sea. 
+-->
+
