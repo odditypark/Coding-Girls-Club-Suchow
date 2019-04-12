@@ -3,8 +3,7 @@ layout: default
 title: Odditypark
 ---
 
-{% for category in site.categories %} 
-<h2><a href="{{ category.url }}">{{ category.title }}</a></h2>
-<p>{{ category.slug }}</p>
-{% endfor %}
++ [Github][1]
+
+[1]: https://github.com/odditypark
 

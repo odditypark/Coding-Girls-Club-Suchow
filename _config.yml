@@ -8,6 +8,7 @@ description: >-
 
 # Build settings
 theme: jekyll-theme-clearloop
+remote_theme: clearloop/jekyll-theme-clearloop
 markdown: kramdown
 highlighter: rouge
 plugins:
@@ -15,9 +16,3 @@ plugins:
 
 # Posts
 format: "%b %-d, %Y"
-collections_dir: 
-  collections
-
-collections:
-  categories:
-    output: true
